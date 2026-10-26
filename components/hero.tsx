@@ -11,7 +11,7 @@ export function Hero({ inert }: HeroProps) {
   return (
     <main
       inert={inert || undefined}
-      className="absolute inset-0 z-0 flex items-center justify-center px-3"
+      className="relative flex h-dvh w-full items-center justify-center px-3"
     >
       <motion.h1
         className="hero-lockup flex items-baseline justify-center whitespace-nowrap"

@@ -20,7 +20,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* The page itself never scrolls. Only the offerings panel may. */
+/* The window itself never scrolls. The page scroller and the offerings panel do. */
 body {
   position: fixed;
   inset: 0;
