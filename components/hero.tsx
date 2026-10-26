@@ -19,13 +19,9 @@ export function Hero({ inert }: HeroProps) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, ease: easeOut, delay: 0.05 }}
       >
-        <span className="-mr-[0.09em] font-script text-[1em] leading-none text-agent">Agents</span>
-        <span className="relative top-[0.05em] mx-[0.03em] font-serif text-[0.58em] leading-none font-bold italic text-amp">
-          &
-        </span>
-        <span className="font-serif text-[0.72em] leading-none font-medium tracking-[-0.018em] text-bot">
-          bots
-        </span>
+        <span className="hero-agents font-script leading-none text-agent">Agents</span>
+        <span className="hero-amp font-sans font-black leading-none text-amp">&</span>
+        <span className="hero-bots font-serif font-medium leading-none tracking-[-0.02em] text-bot">bots</span>
       </motion.h1>
     </main>
   );

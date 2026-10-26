@@ -2,7 +2,7 @@
 
 @theme inline {
   --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
-  --font-script: var(--font-great-vibes), "Segoe Script", cursive;
+  --font-script: var(--font-alex-brush), "Segoe Script", cursive;
   --font-serif: var(--font-playfair), Georgia, "Times New Roman", serif;
   --color-ink: #111111;
   --color-agent: #3b6cff;
@@ -41,7 +41,21 @@ body {
 }
 
 .hero-lockup {
-  font-size: clamp(4.85rem, 14.6vw, 11.75rem);
+  font-size: clamp(4.5rem, 13.2vw, 10.5rem);
+  column-gap: 0.2em;
+}
+
+.hero-agents {
+  padding-right: 0.055em;
+}
+
+.hero-amp {
+  font-size: 0.58em;
+  line-height: 0.8;
+}
+
+.hero-bots {
+  font-size: 0.68em;
 }
 
 @media (max-width: 420px) {

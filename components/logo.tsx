@@ -34,30 +34,55 @@ export function Logo() {
 function NinjaMark({ className }: { className?: string }) {
   return (
     <svg
-      viewBox="0 0 76 68"
-      className={`${className ?? ""} overflow-visible`}
+      viewBox="0 0 64 64"
+      className={className}
       aria-hidden="true"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M38 18.5C27 15.5 15 16.5 3 11" stroke="#E31C23" strokeWidth="3.6" strokeLinecap="round" />
-      <path d="M37 24C25 25 13 29.5 3 26.5" stroke="#E31C23" strokeWidth="3.1" strokeLinecap="round" />
-      <path d="M30 46C23 54 14 60 5 62" stroke="#161616" strokeWidth="8" strokeLinecap="round" />
-      <path d="M46 48C56 56 65 61 73 58" stroke="#161616" strokeWidth="8" strokeLinecap="round" />
       <path
-        fill="#161616"
-        d="M24 33c8-8 24-9 33 0 5.5 5.5 4.5 14-1.5 19-9 7-24 6-32-1-4.5-4.2-4.2-13 .5-18z"
+        d="M33 16.8C24 14.2 14 15 3 11.6c5.2 3.4 12.4 3.6 18.6 2.2 4-.8 8-1.6 11.4-3z"
+        fill="#E31C23"
       />
-      <path fill="#161616" d="M42 30h16v16H40c0-6 1-12 2-16z" />
-      <path d="M40 40C50 36 62 34 73 31" stroke="#161616" strokeWidth="6.6" strokeLinecap="round" />
-      <circle cx="50" cy="24" r="12.2" fill="#161616" />
-      <g clipPath="url(#ap-ninja-head)">
-        <path d="M39 21.5c4.2-7 18.5-8.2 23.5-1.8" stroke="#E31C23" strokeWidth="4.4" strokeLinecap="round" />
-      </g>
-      <path d="M47.5 25.6h9.2" stroke="#ffffff" strokeWidth="2.15" strokeLinecap="round" />
+      <path
+        d="M32 22.2C23 23.6 13 27 3.5 25.6c6 2.4 13.4 1.6 19.2-.6 3.2-1.2 6.4-2.2 9.3-2.8z"
+        fill="#E31C23"
+      />
+      <path
+        d="M22 44c-1.2 5.2-4.2 9.4-8.6 12.2"
+        stroke="#141414"
+        strokeWidth="6.4"
+        strokeLinecap="round"
+      />
+      <path
+        d="M36 45.5c5.2 3.6 10.6 6 16.4 5.2"
+        stroke="#141414"
+        strokeWidth="6.4"
+        strokeLinecap="round"
+      />
+      <path
+        fill="#141414"
+        d="M20 31.5c5.2-5.4 16.6-6.2 21.6-.4 3.4 4 2.6 9.4-1.2 12.6-5.6 4.6-15.6 4-20.6-.8-3-2.8-2.8-7.6.2-11.4z"
+      />
+      <path fill="#141414" d="M31 24h14v16H29c.4-5.2 1.2-11 2-16z" />
+      <path
+        d="M38 34.5c4.6-.6 9.2-.2 13-2"
+        stroke="#141414"
+        strokeWidth="5.2"
+        strokeLinecap="round"
+      />
+      <circle cx="40" cy="20" r="10.4" fill="#141414" />
+      <path
+        d="M31.2 18.6c2.6-4.6 12.2-5.6 16.6-1.4"
+        stroke="#E31C23"
+        strokeWidth="3.5"
+        strokeLinecap="round"
+        clipPath="url(#ap-ninja-head)"
+      />
+      <path d="M37.4 21.4h7.4" stroke="#ffffff" strokeWidth="1.9" strokeLinecap="round" />
       <defs>
         <clipPath id="ap-ninja-head">
-          <circle cx="50" cy="24" r="12.2" />
+          <circle cx="40" cy="20" r="10.4" />
         </clipPath>
       </defs>
     </svg>

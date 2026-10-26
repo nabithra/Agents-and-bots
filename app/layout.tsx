@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Great_Vibes, Playfair_Display } from "next/font/google";
+import { Alex_Brush, Geist, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const geist = Geist({
@@ -7,16 +7,15 @@ const geist = Geist({
   variable: "--font-geist",
 });
 
-const greatVibes = Great_Vibes({
+const alexBrush = Alex_Brush({
   subsets: ["latin"],
   weight: "400",
-  variable: "--font-great-vibes",
+  variable: "--font-alex-brush",
 });
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  style: ["normal", "italic"],
+  weight: ["500", "600"],
   variable: "--font-playfair",
 });
 
@@ -37,7 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geist.variable} ${greatVibes.variable} ${playfair.variable} h-full antialiased`}
+      className={`${geist.variable} ${alexBrush.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="font-sans antialiased">{children}</body>
     </html>
