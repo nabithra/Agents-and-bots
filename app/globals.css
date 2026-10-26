@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-script: var(--font-great-vibes), "Segoe Script", cursive;
+  --font-serif: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --color-ink: #111111;
+  --color-agent: #3b6cff;
+  --color-amp: #ff7a18;
+  --color-bot: #24964c;
+  --color-line: #ececec;
+  --color-muted: #9a9a9a;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+  background: #ffffff;
+  color-scheme: only light;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* The page itself never scrolls. Only the offerings panel may. */
+body {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: #ffffff;
+  color: #111111;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #111111;
+  color: #ffffff;
+}
+
+.hero-lockup {
+  font-size: clamp(3.15rem, 10.35vw, 8.65rem);
+}
+
+@media (max-width: 420px) {
+  .hero-lockup {
+    font-size: clamp(2.05rem, 11.15vw, 2.7rem);
+  }
+}
+
+@media (max-height: 720px) {
+  .hero-lockup {
+    font-size: clamp(2.4rem, 8vw, 6.1rem);
+  }
+}
+
+.panel-scroll {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.panel-scroll::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.pill,
+.close-btn,
+.logo-link {
+  touch-action: manipulation;
+}
+
+.pill:focus-visible,
+.close-btn:focus-visible,
+.logo-link:focus-visible {
+  outline: 2px solid #111111;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-lockup {
+    transform: none !important;
+  }
+}
