@@ -41,18 +41,18 @@ body {
 }
 
 .hero-lockup {
-  font-size: clamp(3.15rem, 10.35vw, 8.65rem);
+  font-size: clamp(4.85rem, 14.6vw, 11.75rem);
 }
 
 @media (max-width: 420px) {
   .hero-lockup {
-    font-size: clamp(2.05rem, 11.15vw, 2.7rem);
+    font-size: clamp(3.55rem, 17.6vw, 4.65rem);
   }
 }
 
-@media (max-height: 720px) {
+@media (max-height: 700px) and (min-width: 421px) {
   .hero-lockup {
-    font-size: clamp(2.4rem, 8vw, 6.1rem);
+    font-size: clamp(3.4rem, 11vw, 8rem);
   }
 }
 
