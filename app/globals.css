@@ -58,6 +58,11 @@ body {
   font-size: 0.68em;
 }
 
+.hero-stats {
+  width: min(100%, 36rem);
+  text-wrap: balance;
+}
+
 @media (max-width: 420px) {
   .hero-lockup {
     font-size: clamp(3.55rem, 17.6vw, 4.65rem);
@@ -86,19 +91,36 @@ body {
 
 .pill,
 .close-btn,
-.logo-link {
+.logo-link,
+.agent-card,
+.industry-tile,
+.agent-search {
   touch-action: manipulation;
 }
 
 .pill:focus-visible,
 .close-btn:focus-visible,
-.logo-link:focus-visible {
+.logo-link:focus-visible,
+.agent-card:focus-visible,
+.industry-tile:focus-visible,
+.agent-search:focus-visible {
   outline: 2px solid #111111;
   outline-offset: 3px;
+}
+
+.agent-search::-webkit-search-decoration,
+.agent-search::-webkit-search-results-button {
+  display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .hero-lockup {
     transform: none !important;
+  }
+
+  .agent-card,
+  .industry-tile,
+  .agent-search {
+    transition: none;
   }
 }
