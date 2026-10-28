@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Real estate",
+    "whoFor": "Builders, brokers, plot sellers"
+  },
+  {
+    "name": "Clinics",
+    "whoFor": "Clinics, dentists, diagnostics, physios"
+  },
+  {
+    "name": "Retail shops",
+    "whoFor": "Boutiques, jewellery, electronics, D2C"
+  },
+  {
+    "name": "Schools",
+    "whoFor": "Schools, play schools, colleges"
+  },
+  {
+    "name": "Restaurants",
+    "whoFor": "Restaurants, cafes, cloud kitchens, caterers"
+  },
+  {
+    "name": "Salons and spas",
+    "whoFor": "Salons, spas, beauty and wellness"
+  },
+  {
+    "name": "Coaching and tuition",
+    "whoFor": "Tuition centres, coaches, academies, online courses"
+  },
+  {
+    "name": "Local services",
+    "whoFor": "CAs, agencies, repair, interiors, travel"
+  }
+]

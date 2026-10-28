@@ -1,0 +1,392 @@
+[
+  {
+    "id": "OF-01",
+    "name": "Payment Agent",
+    "category": "WhatsApp",
+    "ai": false,
+    "whatItDoes": "Chases every due with a polite reminder and pay link, so you get paid on time without awkward calls.",
+    "covers": [
+      "Get Paid Faster",
+      "Paid on Every Milestone",
+      "Rent On Time",
+      "Fees On Time",
+      "Fees Collected",
+      "EMIs On Time",
+      "Dealer Dues Cleared",
+      "Freelance Invoices Paid",
+      "Subscriptions Sold Simply"
+    ]
+  },
+  {
+    "id": "OF-02",
+    "name": "Order Agent",
+    "category": "WhatsApp",
+    "ai": false,
+    "whatItDoes": "Takes orders right inside WhatsApp, day or night, so no order slips away while you're busy.",
+    "covers": [
+      "Every Order Captured",
+      "Catalogue on Call",
+      "Shoppers Find It Fast",
+      "Right Spare Part",
+      "Side Business Running"
+    ]
+  },
+  {
+    "id": "OF-03",
+    "name": "Booking Agent",
+    "category": "WhatsApp",
+    "ai": false,
+    "whatItDoes": "Books, confirms and reminds every appointment, so empty slots and no-shows drop sharply.",
+    "covers": [
+      "Full Calendar",
+      "Chairs Always Full",
+      "Tables Always Full",
+      "Classes Filled",
+      "Health Packages Booked",
+      "Site Visits Booked",
+      "Test Drives Booked"
+    ]
+  },
+  {
+    "id": "OF-04",
+    "name": "Follow-up Agent",
+    "category": "WhatsApp",
+    "ai": false,
+    "whatItDoes": "Thanks customers, nudges anyone who's gone quiet and brings repeat orders back on their own.",
+    "covers": [
+      "Bring Them Back",
+      "Follow-ups Kept",
+      "Treatment Plans Completed",
+      "Packages Used Up",
+      "Refills Reordered",
+      "Medicines Refilled On Time",
+      "Next Holiday Booked",
+      "Service Bays Full",
+      "Birthday Offers Sent"
+    ]
+  },
+  {
+    "id": "OF-05",
+    "name": "Renewal Agent",
+    "category": "WhatsApp",
+    "ai": false,
+    "whatItDoes": "Reminds customers before renewals are due and collects the yes, so you stop losing renewals to forgetfulness.",
+    "covers": [
+      "Always Renewed",
+      "Memberships Renewed",
+      "Motor Insurance Renewed"
+    ]
+  },
+  {
+    "id": "OF-06",
+    "name": "Web Agent",
+    "category": "Web",
+    "ai": true,
+    "whatItDoes": "Answers visitors on your website 24x7 and turns them into leads you can call.",
+    "covers": [
+      "Website That Sells"
+    ]
+  },
+  {
+    "id": "OF-07",
+    "name": "Campaign Agent",
+    "category": "Marketing",
+    "ai": false,
+    "whatItDoes": "Sends the right offer to the right customers and follows up on every reply, so campaigns turn into sales.",
+    "covers": [
+      "Campaigns That Convert",
+      "Best Message Wins",
+      "Offers Made Personal",
+      "Group Tours Filled",
+      "Launch Waitlist Filled"
+    ]
+  },
+  {
+    "id": "OF-08",
+    "name": "Media Agent",
+    "category": "Media",
+    "ai": true,
+    "whatItDoes": "Makes videos, voice-overs and product images from a short brief, without hiring a studio.",
+    "covers": [
+      "Videos in Minutes",
+      "Product Photos Ready",
+      "See It Before You Book",
+      "Reels Ready"
+    ]
+  },
+  {
+    "id": "OF-09",
+    "name": "Shop Agent",
+    "category": "Shop",
+    "ai": false,
+    "whatItDoes": "Handles everything after the order, from COD checks to 'where is my order?', so your team stops answering the same calls.",
+    "covers": [
+      "Orders Tracked Without Calls",
+      "Dispatch Tracked",
+      "COD Confirmed",
+      "Easy Returns",
+      "Carts Recovered"
+    ]
+  },
+  {
+    "id": "OF-10",
+    "name": "Poster Agent",
+    "category": "Media",
+    "ai": true,
+    "whatItDoes": "Makes fresh on-brand posters for WhatsApp and Instagram every week, no designer needed.",
+    "covers": []
+  },
+  {
+    "id": "OF-11",
+    "name": "Custom Agent",
+    "category": "Custom",
+    "ai": true,
+    "whatItDoes": "Builds the one job that isn't on our menu, shaped around how your business already works.",
+    "covers": [
+      "Workflows That Run Themselves",
+      "Portal Work Done",
+      "Every Handover Smooth",
+      "Every Outlet On Brand",
+      "Ask Your Data",
+      "CRM Always Updated",
+      "Business Bot"
+    ]
+  },
+  {
+    "id": "OF-12",
+    "name": "Lead Agent",
+    "category": "WhatsApp",
+    "ai": true,
+    "whatItDoes": "Replies to every enquiry in seconds, asks the right questions and follows up, so no lead goes cold.",
+    "covers": [
+      "Never Lose a Lead",
+      "Seats Filled",
+      "Leads to the Right Rep",
+      "Right Home",
+      "First Time",
+      "Used Cars Sold Faster",
+      "Trips Booked",
+      "Rooms Booked Direct",
+      "Prospects Researched",
+      "Every Scan Starts a Chat"
+    ]
+  },
+  {
+    "id": "OF-13",
+    "name": "Review Agent",
+    "category": "Marketing",
+    "ai": true,
+    "whatItDoes": "Asks happy customers for a Google review at the right moment and catches unhappy ones before they post.",
+    "covers": [
+      "More 5-Star Reviews",
+      "Feedback Fixed Fast",
+      "Reviews That Sell"
+    ]
+  },
+  {
+    "id": "OF-14",
+    "name": "Referral Agent",
+    "category": "Marketing",
+    "ai": false,
+    "whatItDoes": "Asks satisfied customers to refer a friend and logs every referral, so word of mouth turns into new sales.",
+    "covers": [
+      "More Referrals",
+      "Alumni Who Give Back"
+    ]
+  },
+  {
+    "id": "OF-15",
+    "name": "Support Agent",
+    "category": "WhatsApp",
+    "ai": true,
+    "whatItDoes": "Answers common customer questions on WhatsApp instantly, in their language, and hands tricky ones to your team.",
+    "covers": [
+      "No One Waits",
+      "Front Desk Always Open",
+      "Speaks Their Language",
+      "Nearest Branch Found",
+      "Expert On Call",
+      "Visa Questions Answered",
+      "Customers Heard",
+      "Customers Verified"
+    ]
+  },
+  {
+    "id": "OF-16",
+    "name": "Social Media Agent",
+    "category": "Marketing",
+    "ai": true,
+    "whatItDoes": "Writes posts in your voice and schedules them once you approve, so your pages stay active without daily effort.",
+    "covers": [
+      "Social Always Posted",
+      "Content in Your Voice",
+      "Content Posted Daily",
+      "Personal Brand Grown",
+      "Found on Google",
+      "Marketing Team on Demand"
+    ]
+  },
+  {
+    "id": "OF-17",
+    "name": "Event Agent",
+    "category": "Marketing",
+    "ai": false,
+    "whatItDoes": "Registers people for your webinar or event, reminds them and sends the link or QR ticket, so more seats get filled.",
+    "covers": [
+      "Webinar Seats Filled",
+      "Event Tickets Sold",
+      "Party Planned",
+      "Guests Confirmed"
+    ]
+  },
+  {
+    "id": "OF-18",
+    "name": "Alert Agent",
+    "category": "WhatsApp",
+    "ai": false,
+    "whatItDoes": "Tells customers about updates, reports and deadlines before they call to ask, saving your team hours of calls.",
+    "covers": [
+      "Customers Told First",
+      "Reports Delivered",
+      "Parents Always Informed",
+      "Travellers Always Informed",
+      "Deadlines Never Missed",
+      "Tax Season Ready",
+      "Queue Without Crowds",
+      "Smooth Possession",
+      "Approvals in Minutes"
+    ]
+  },
+  {
+    "id": "OF-19",
+    "name": "Document Agent",
+    "category": "Operations",
+    "ai": true,
+    "whatItDoes": "Collects KYC, loan, insurance or tax documents on WhatsApp, reads them and flags what's missing, so files close faster.",
+    "covers": [
+      "Documents Collected",
+      "Loan Files Complete",
+      "KYC Done Fast",
+      "Insurance Paperwork Ready",
+      "Travel Docs Complete",
+      "Claims Moving",
+      "Paperwork Read for You"
+    ]
+  },
+  {
+    "id": "OF-20",
+    "name": "Service Agent",
+    "category": "Operations",
+    "ai": true,
+    "whatItDoes": "Takes service and repair requests, sends them to the right person and keeps the customer updated till it's done.",
+    "covers": [
+      "On-Time Service",
+      "Repairs Sorted Fast",
+      "Forms Routed Right",
+      "Guest Requests Done Fast"
+    ]
+  },
+  {
+    "id": "OF-21",
+    "name": "Quote Agent",
+    "category": "Operations",
+    "ai": true,
+    "whatItDoes": "Turns a customer's chat into a ready PDF quote from your rate card in minutes, so you win the job before competitors reply.",
+    "covers": [
+      "Quotes Out in Minutes",
+      "Proposals Out Fast",
+      "Events Booked"
+    ]
+  },
+  {
+    "id": "OF-22",
+    "name": "Dealer Agent",
+    "category": "Shop",
+    "ai": true,
+    "whatItDoes": "Takes dealer orders, shares stock and schemes, and keeps your distributor network moving without phone calls.",
+    "covers": [
+      "Dealers Always Stocked",
+      "Brokers Always Updated",
+      "Distributors Onboarded Fast"
+    ]
+  },
+  {
+    "id": "OF-23",
+    "name": "Daily Report Agent",
+    "category": "Operations",
+    "ai": false,
+    "whatItDoes": "Sends you a short WhatsApp summary of sales, cash, dues and stock every morning, so you know your numbers without opening a laptop.",
+    "covers": [
+      "Know Your Numbers",
+      "Floor Numbers Clear",
+      "Every Branch Compared",
+      "Stock Always Counted",
+      "Kitchen Never Runs Out"
+    ]
+  },
+  {
+    "id": "OF-24",
+    "name": "HR Agent",
+    "category": "Operations",
+    "ai": true,
+    "whatItDoes": "Screens job applicants and answers staff questions on leave and policy, saving you hours of HR back-and-forth.",
+    "covers": [
+      "HR Questions Answered",
+      "Team Knows Everything",
+      "Roles Filled Faster",
+      "Best Resumes First",
+      "Day-One Ready",
+      "Exits Without Loose Ends"
+    ]
+  },
+  {
+    "id": "OF-25",
+    "name": "Attendance Agent",
+    "category": "Operations",
+    "ai": false,
+    "whatItDoes": "Takes staff check-ins, leave and shift confirmations on WhatsApp, and tells you early when someone can't come.",
+    "covers": [
+      "Attendance Sorted",
+      "Shifts Always Covered",
+      "Fleet Always Moving"
+    ]
+  },
+  {
+    "id": "OF-26",
+    "name": "Assistant Agent",
+    "category": "Operations",
+    "ai": true,
+    "whatItDoes": "Your own assistant on WhatsApp that keeps your to-dos, meetings and email in check, giving you back an hour a day.",
+    "covers": [
+      "Owner's Day Sorted",
+      "Tasks Closed",
+      "Meetings Organised",
+      "Inbox Under Control",
+      "Suppliers On Time",
+      "Voice Notes to Action",
+      "AI assistant"
+    ]
+  },
+  {
+    "id": "OF-27",
+    "name": "Call Agent",
+    "category": "Custom",
+    "ai": true,
+    "whatItDoes": "Answers phone calls, takes details and books the next step, so you never miss a customer call again.",
+    "covers": [
+      "Every Call Answered"
+    ]
+  },
+  {
+    "id": "OF-28",
+    "name": "Tutor Agent",
+    "category": "WhatsApp",
+    "ai": true,
+    "whatItDoes": "Answers student doubts from your own notes any time and runs quiz practice, so your coaching works even after class.",
+    "covers": [
+      "Doubts Cleared Tonight",
+      "Exam Ready",
+      "Placement Ready"
+    ]
+  }
+]

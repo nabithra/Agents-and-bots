@@ -2,17 +2,8 @@
 
 import { motion } from "framer-motion";
 import { WHATSAPP_URL } from "@/lib/config";
-import { easeOut } from "@/lib/motion";
 import { Logo } from "@/components/logo";
-
-const pillClass =
-  "pill inline-flex h-10 shrink-0 cursor-pointer items-center justify-center whitespace-nowrap rounded-full border-[1.5px] border-ink px-3 text-[12.5px] font-medium tracking-[-0.011em] sm:h-11 sm:px-[1.35rem] sm:text-[15px]";
-
-const pillMotion = {
-  whileHover: { backgroundColor: "#111111", color: "#ffffff" },
-  whileTap: { scale: 0.97 },
-  transition: { duration: 0.2, ease: easeOut },
-} as const;
+import { pillClass, pillMotion } from "@/lib/ui";
 
 type HeaderProps = {
   open: boolean;
